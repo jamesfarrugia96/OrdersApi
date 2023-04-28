@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Fabillio.Ordering.API</name>
+    </assembly>
+    <members>
+        <member name="T:Fabillio.Ordering.API.Controllers.OrdersController">
+            <summary>
+            Ordering
+            </summary>
+        </member>
+    </members>
+</doc>

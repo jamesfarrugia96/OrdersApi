@@ -1,0 +1,183 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Code\\OrdersApi\\Fabillio.Ordering\\Fabillio.Ordering.API\\Fabillio.Ordering.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Code\\OrdersApi\\Fabillio.Ordering\\Fabillio.Ordering.API\\Fabillio.Ordering.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Code\\OrdersApi\\Fabillio.Ordering\\Fabillio.Ordering.API\\Fabillio.Ordering.API.csproj",
+        "projectName": "Fabillio.Ordering.API",
+        "projectPath": "C:\\Code\\OrdersApi\\Fabillio.Ordering\\Fabillio.Ordering.API\\Fabillio.Ordering.API.csproj",
+        "packagesPath": "C:\\Users\\james\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\OrdersApi\\Fabillio.Ordering\\Fabillio.Ordering.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Code\\OrdersApi\\Fabillio.Ordering\\NuGet.Config",
+          "C:\\Users\\james\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/yuriy-butkevych/index.json": {},
+          "https://proget-repository.extense.io/nuget/extense-nuget/v3/index.json": {},
+          "https://proget-repository.extense.io/nuget/faktum-nuget/": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Code\\OrdersApi\\Fabillio.Ordering\\Fabillio.Ordering.Public.Contracts\\Fabillio.Ordering.Public.Contracts.csproj": {
+                "projectPath": "C:\\Code\\OrdersApi\\Fabillio.Ordering\\Fabillio.Ordering.Public.Contracts\\Fabillio.Ordering.Public.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Azure.Extensions.AspNetCore.Configuration.Secrets": {
+              "target": "Package",
+              "version": "[1.2.2, )"
+            },
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.8.2, )"
+            },
+            "Dapr.Actors": {
+              "target": "Package",
+              "version": "[1.10.0, )"
+            },
+            "Dapr.Actors.AspNetCore": {
+              "target": "Package",
+              "version": "[1.10.0, )"
+            },
+            "Dapr.AspNetCore": {
+              "target": "Package",
+              "version": "[1.10.0, )"
+            },
+            "Dapr.Client": {
+              "target": "Package",
+              "version": "[1.10.0, )"
+            },
+            "Microsoft.ApplicationInsights.AspNetCore": {
+              "target": "Package",
+              "version": "[2.21.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "RavenDB.Client": {
+              "target": "Package",
+              "version": "[5.4.5, )"
+            },
+            "RavenDB.DependencyInjection": {
+              "target": "Package",
+              "version": "[4.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Code\\OrdersApi\\Fabillio.Ordering\\Fabillio.Ordering.Public.Contracts\\Fabillio.Ordering.Public.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Code\\OrdersApi\\Fabillio.Ordering\\Fabillio.Ordering.Public.Contracts\\Fabillio.Ordering.Public.Contracts.csproj",
+        "projectName": "Fabillio.Ordering.Public.Contracts",
+        "projectPath": "C:\\Code\\OrdersApi\\Fabillio.Ordering\\Fabillio.Ordering.Public.Contracts\\Fabillio.Ordering.Public.Contracts.csproj",
+        "packagesPath": "C:\\Users\\james\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\OrdersApi\\Fabillio.Ordering\\Fabillio.Ordering.Public.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Code\\OrdersApi\\Fabillio.Ordering\\NuGet.Config",
+          "C:\\Users\\james\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/yuriy-butkevych/index.json": {},
+          "https://proget-repository.extense.io/nuget/extense-nuget/v3/index.json": {},
+          "https://proget-repository.extense.io/nuget/faktum-nuget/": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
